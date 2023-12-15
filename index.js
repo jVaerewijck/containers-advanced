@@ -2,11 +2,11 @@ const express = require('express');
 
 const app = express();
 
-const port = <in te vullen>;
+const port = 3000;
 
-const firstName = <in te vullen>;
-const lastName = <in te vullen>;
-const studentNbr = <in te vullen>;
+const firstName = 'Jarn';
+const lastName = 'Vaerewijck';
+const studentNbr = 's144013';
 
 app.get('/', (req, res) => {
   res.json({
